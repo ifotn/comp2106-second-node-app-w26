@@ -3,7 +3,7 @@ import accounting from 'accounting';
 
 // run server
 http.createServer((req: http.IncomingMessage, res: http.ServerResponse) => {
-    const subTotal: number = 42.29;
+    const subTotal: number = 82.29;
     const tax: number = subTotal * 0.13;
     const total: number = subTotal + tax;
 

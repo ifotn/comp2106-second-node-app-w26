@@ -13,3 +13,5 @@
 `npm i accounting` - package for money format 
 
 `npm i nodemon -g` - global package for auto-restarts on save change
+
+`npm run dev` - run dev script in package.json (runs tsc then nodemon to run dist/tax.js)

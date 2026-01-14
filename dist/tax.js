@@ -7,7 +7,7 @@ const http_1 = __importDefault(require("http"));
 const accounting_1 = __importDefault(require("accounting"));
 // run server
 http_1.default.createServer((req, res) => {
-    const subTotal = 50.28;
+    const subTotal = 82.29;
     const tax = subTotal * 0.13;
     const total = subTotal + tax;
     res.writeHead(200, { 'Content-Type': 'text/html' });
