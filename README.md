@@ -9,3 +9,7 @@
 `tsc` - transpile ts => js
 
 `node dist/${file-name}` - execute specified js file in dist folder 
+
+`npm i accounting` - package for money format 
+
+`npm i nodemon -g` - global package for auto-restarts on save change
